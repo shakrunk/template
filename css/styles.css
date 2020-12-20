@@ -2,9 +2,16 @@
 /** END HEADER **/
 
 /** SMALL DEVICES ONLY **/
+#tab-bar {
+	background: #03DAC6;
+	padding-top: 16px;
+}
+
 .mobile-tabs {
 	flex-flow: column wrap;
 	align-items: center;
+	text-decoration: none;
+	color: #121212;
 }
 
 /** MEDIUM DEVICES ONLY **/
