@@ -1,17 +1,32 @@
+body {
+	background: #03DAC6;
+}
 /** HEADER ******/
+#logo {
+	background: #121212;
+	padding: 10px;
+}
 /** END HEADER **/
+
+#content {
+	height: 100vh;
+}
 
 /** SMALL DEVICES ONLY **/
 #tab-bar {
-	background: #03DAC6;
-	padding-top: 16px;
+	padding-top: 1rem;
+}
+
+.divider {
+	border: 1px solid #03DAC6;
+	height: 3rem;
 }
 
 .mobile-tabs {
 	flex-flow: column wrap;
 	align-items: center;
 	text-decoration: none;
-	color: #121212;
+	color: #03DAC6;
 }
 
 /** MEDIUM DEVICES ONLY **/
