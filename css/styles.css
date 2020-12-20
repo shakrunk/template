@@ -2,5 +2,10 @@
 /** END HEADER **/
 
 /** SMALL DEVICES ONLY **/
+.mobile-tabs {
+	flex-flow: column wrap;
+	align-items: center;
+}
+
 /** MEDIUM DEVICES ONLY **/
 /** LARGE DEVICES ONLY **/
